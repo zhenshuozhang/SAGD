@@ -8,7 +8,7 @@ import scipy.sparse as sp
 import multiprocessing as mp
 import os
 
-#borrowed from subg-con https://github.com/yzjiao/Subg-Con
+
 class PPR:
     # Node-wise personalized pagerank
     def __init__(self, adj_mat, maxsize=20, n_order=2, alpha=0.85):
